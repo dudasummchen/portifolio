@@ -1,28 +1,37 @@
-import "./Navbar.css";
-
+import './Navbar.css';
+import { FaPaperPlane } from "react-icons/fa";
 function Navbar() {
   return (
-    <header>
-      <div className="container">
-        <nav>
-          <div className="logo">
-          </div>
+    <nav className="navbar">
+      <ul className="nav-links">
+        <li>
+          <a href="#home">Início</a>
+        </li>
 
-          <ul className="nav-links">
-            <li><a href="#home" className="active">Home</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#contact">Contato</a></li>
-          </ul>
+        <li>
+          <a href="#about">Sobre</a>
+        </li>
 
-          <a href="#contact" className="btn btn-primary">
-            Contrate-me
-            <i className="fa-solid fa-arrow-right"></i>
-          </a>
-        </nav>
-      </div>
-    </header>
+        <li>
+          <a href="#skills">Habilidades</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projetos</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contato</a>
+        </li>
+      </ul>
+
+      <a
+        href="mailto:dudasummchen@gmail.com"
+        className="btn-contato"
+      >
+        Vamos conversar  <FaPaperPlane />
+      </a>
+    </nav>
   );
 }
 

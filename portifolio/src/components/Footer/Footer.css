@@ -1,0 +1,19 @@
+.footer{
+
+    margin-top:80px;
+
+    padding:30px;
+
+    background:#5c4033;
+
+    color:white;
+
+    text-align:center;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}

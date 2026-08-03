@@ -1,9 +1,32 @@
-function Footer() {
-  return (
-    <footer>
-      <h1>Footer</h1>
-    </footer>
-  );
+import './Footer.css'
+
+
+function Footer(){
+
+    return(
+
+        <footer className="footer">
+
+
+            <p>
+
+                © {new Date().getFullYear()} Maria
+
+            </p>
+
+
+            <p>
+
+                Desenvolvido com React + Vite 💻
+
+            </p>
+
+
+        </footer>
+
+    )
+
 }
 
-export default Footer;
+
+export default Footer
