@@ -13,18 +13,9 @@ function About() {
 
         <div className="about-text">
 
-          <p>
-            Sou estudante do <strong>Ensino Médio Técnico em Informática para Internet</strong> e apaixonada por desenvolvimento web.
-          </p>
-
-          <p>
-            Gosto de transformar ideias em interfaces modernas, intuitivas e funcionais, sempre buscando unir design e tecnologia para criar experiências agradáveis aos usuários.
-          </p>
-
-          <p>
-            Atualmente estudo <strong>HTML, CSS, JavaScript, React, PHP e MySQL</strong> e estou em busca da minha primeira oportunidade como Desenvolvedora Front-end, onde possa continuar aprendendo e evoluindo profissionalmente.
-          </p>
-
+        <p> Sou estudante do <strong>Ensino Médio Técnico em Informática para Internet</strong> e desenvolvedora Front-end em formação.
+         Tenho interesse em criar interfaces modernas, intuitivas e funcionais utilizando tecnologias como HTML, CSS, JavaScript, React, PHP e MySQL.
+</p>
         </div>
 
         <div className="about-info">

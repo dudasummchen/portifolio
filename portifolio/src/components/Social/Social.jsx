@@ -21,7 +21,7 @@ function Social() {
             <div className="social-icons">
 
                 <a
-                    href="https://github.com/"
+                    href="https://github.com/dudasummchen"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -29,14 +29,14 @@ function Social() {
                 </a>
 
                 <a
-                    href="https://linkedin.com/"
+                    href="https://www.linkedin.com/in/maria-eduarda-correa-summchen-b3996336b"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <FaLinkedin />
                 </a>
 
-                <a href="mailto:seuemail@email.com">
+                <a href="mailto:dudasummchen@email.com">
 
                     <FaEnvelope />
 
