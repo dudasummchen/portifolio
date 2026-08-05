@@ -19,8 +19,6 @@
 .about-container{
     display:grid;
     grid-template-columns:1.6fr 1fr;
-    gap:70px;
-    align-items:center;
 }
 
 .about-text{
@@ -51,6 +49,7 @@
     border-radius:18px;
     box-shadow:0 8px 25px rgba(0,0,0,.08);
     transition:.3s;
+   
 }
 
 .card:hover{
@@ -58,23 +57,6 @@
     box-shadow:0 15px 35px rgba(0,0,0,.12);
 }
 
-.card span{
-    font-size:28px;
-    display:block;
-    margin-bottom:12px;
-}
-
-.card h3{
-    color:#5c4033;
-    margin-bottom:10px;
-    font-size:20px;
-}
-
-.card p{
-    color:#666;
-    font-size:15px;
-    line-height:1.6;
-}
 
 @media(max-width:900px){
 .about-container{
