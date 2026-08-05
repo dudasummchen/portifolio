@@ -1,6 +1,5 @@
 import './Projects.css'
 
-
 function Projects() {
 
     const projetos = [
@@ -8,8 +7,7 @@ function Projects() {
         {
             imagem: "https://via.placeholder.com/600x400",
             nome: 'Biblioteca Viva',
-            descricao:
-                'Sistema desenvolvido para consulta e organização de livros utilizando React.',
+            descricao: 'Sistema para consulta e organização de livros.',
             tecnologias: 'React • CSS • JavaScript',
             github: 'https://github.com/',
             demo: '#'
@@ -18,18 +16,16 @@ function Projects() {
         {
             imagem: "https://placehold.co/600x400",
             nome: 'Ecoleta',
-            descricao:
-                'Projeto criado para incentivar o descarte correto de resíduos e promover sustentabilidade.',
+            descricao: 'Plataforma para incentivar o descarte correto de resíduos.',
             tecnologias: 'HTML • CSS • PHP • MySQL',
             github: 'https://github.com/',
             demo: '#'
         },
 
         {
-           imagem: "https://placehold.co/600x400",
+            imagem: "https://placehold.co/600x400",
             nome: 'Portfólio',
-            descricao:
-                'Meu portfólio pessoal desenvolvido em React para apresentar meus projetos e habilidades.',
+            descricao: 'Meu portfólio desenvolvido em React.',
             tecnologias: 'React • Vite • CSS',
             github: 'https://github.com/',
             demo: '#'
@@ -39,7 +35,7 @@ function Projects() {
 
     return (
 
-        <div className="projects">
+        <section className="projects" id="projects">
 
             <h2>Projetos</h2>
 
@@ -90,7 +86,7 @@ function Projects() {
 
             </div>
 
-        </div>
+        </section>
 
     )
 
