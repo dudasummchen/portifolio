@@ -1,81 +1,47 @@
-import './Skills.css'
+import "./Skills.css";
 
-import {
-    FaHtml5,
-    FaCss3Alt,
-    FaJs,
-    FaReact,
-    FaGitAlt,
-    FaGithub,
-    FaFigma
-} from 'react-icons/fa'
-
-import {
-    SiVite,
-    SiPhp,
-    SiMysql
-} from 'react-icons/si'
+const skills = [
+  { nome: "HTML5", slug: "html5" },
+  { nome: "CSS3", slug: "css3" },
+  { nome: "JavaScript", slug: "javascript" },
+  { nome: "React", slug: "react" },
+  { nome: "Vite", slug: "vite" },
+  { nome: "PHP", slug: "php" },
+  { nome: "MySQL", slug: "mysql" },
+  { nome: "Git", slug: "git" },
+  { nome: "GitHub", slug: "github", color: "ffffff" },
+  { nome: "Figma", slug: "figma" },
+];
 
 function Skills() {
+  return (
+    <section className="skills" id="skills">
 
-    const skills = [
+      <h2>Habilidades</h2>
 
-        {nome:'HTML',icone:<FaHtml5 />},
+      <p className="skills-text">
+        Tecnologias e ferramentas que utilizo nos meus projetos.
+      </p>
 
-        {nome:'CSS',icone:<FaCss3Alt />},
+      <div className="skills-grid">
+        {skills.map((skill, index) => (
+          <div className="skill-card" key={index}>
 
-        {nome:'JavaScript',icone:<FaJs />},
-
-        {nome:'React',icone:<FaReact />},
-
-        {nome:'Vite',icone:<SiVite />},
-
-        {nome:'PHP',icone:<SiPhp />},
-
-        {nome:'MySQL',icone:<SiMysql />},
-
-        {nome:'Git',icone:<FaGitAlt />},
-
-        {nome:'GitHub',icone:<FaGithub />},
-
-        {nome:'Figma',icone:<FaFigma />}
-
-    ]
-
-    return (
-
-        <div className="skills">
-
-            <h2>Habilidades</h2>
-
-            <div className="skills-grid">
-
-                {skills.map((skill,index)=>(
-
-                    <div className="skill-card" key={index}>
-
-                        <div className="icon">
-
-                            {skill.icone}
-
-                        </div>
-
-                        <h3>
-
-                            {skill.nome}
-
-                        </h3>
-
-                    </div>
-
-                ))}
-
+            <div className="skill-icon">
+              <img
+                src={`https://cdn.simpleicons.org/${skill.slug}${skill.color ? "/" + skill.color : ""}`}
+                alt={skill.nome}
+              />
             </div>
 
-        </div>
+            <span>{skill.nome}</span>
 
-    )
+          </div>
+        ))}
+      </div>
 
+    </section>
+  );
 }
 
-export default Skills
+export default Skills;
