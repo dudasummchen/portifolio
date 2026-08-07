@@ -13,11 +13,9 @@
 
 .nav-links{
     grid-column: 2;
-
     display: flex;
     justify-content: center;
     gap: 35px;
-
     list-style: none;
     padding: 0;
     margin: 0;
@@ -31,7 +29,7 @@
 }
 
 .nav-links a:hover{
-    color: #d96b9b;
+    color: #E4157A;
 }
 
 .btn-contato{
@@ -43,7 +41,7 @@
     gap: 8px;
 
     text-decoration: none;
-    background: linear-gradient(135deg,#ff7eb6,#ff9cc7);
+    background: linear-gradient(135deg,#ff7eb6,#B8156E);
     color:#0b0b0f;
     padding: 12px 24px;
     border-radius: 999px;
@@ -59,8 +57,6 @@
 .btn-contato svg{
     font-size: 15px;
 }
-
-/* ===== Responsividade ===== */
 
 @media (max-width:768px){
 

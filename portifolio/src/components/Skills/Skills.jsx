@@ -2,7 +2,7 @@ import "./Skills.css";
 
 const skills = [
   { nome: "HTML5", slug: "html5" },
-  { nome: "CSS3", slug: "css3" },
+  { nome: "CSS", slug: "css" },
   { nome: "JavaScript", slug: "javascript" },
   { nome: "React", slug: "react" },
   { nome: "Vite", slug: "vite" },

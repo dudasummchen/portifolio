@@ -18,10 +18,8 @@
 }
 
 
-/* Texto inicial */
-
 .eyebrow {
-    color: #8a7d68;
+    color: whitesmoke;
     font-size: 16px;
     margin: 0 0 6px;
 }
@@ -30,7 +28,7 @@
 .name-pixel {
     font-family: 'Press Start 2P', monospace;
     font-size: 30px;
-    color: #3A2A1E;
+    color: whitesmoke;
     line-height: 1.5;
     margin: 0 0 22px;
     letter-spacing: 1px;
@@ -70,18 +68,14 @@
 
 }
 
-
-/* Descrição */
-
 .desc {
 
     font-size: 16px;
-    color: #5C5142;
+    color: whitesmoke;
     max-width: 460px;
     line-height: 1.5;
 
 }
-
 
 .inline-code {
 
@@ -131,12 +125,8 @@
 
 }
 
-
-/* botão projetos */
-
 .btn:not(.cv) {
 
-    background: #000;
     color: white;
 
 }
@@ -149,13 +139,10 @@
 
 }
 
-
-/* botão CV */
-
 .cv {
 
     background: transparent;
-    color:black;
+    color:whitesmoke;
 
     border: 2px solid#B8156E;
 
