@@ -11,7 +11,7 @@ function Hero() {
         <p className="eyebrow">Olá, eu sou a</p>
 
         <h1 className="name-pixel">
-          MARIA<span className="pixel-cursor"></span>
+          DUDA<span className="pixel-cursor"></span>
         </h1>
 
         <p className="role">
@@ -43,7 +43,7 @@ function Hero() {
             download="Maria_CV.pdf"
             className="btn cv"
           >
-            Baixar meu CV
+            Baixar Currículo
             <FaDownload className="icone-download" />
           </a>
 

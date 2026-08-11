@@ -1,45 +1,12 @@
-
-.contact h2 {
-    margin-bottom: 15px;
-}
-
-.contact p {
-    margin-bottom: 35px;
-}
-
-.contact-icons {
-    display: flex;
-    justify-content:right;
-    gap: 35px;
-}
-
-.contact-icons a {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    color: #B8156E;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
-    transition: .3s;
-
-}
-.contact-icons a:hover {
-    transform: translateY(-8px);
-    background: #B8156E;
-    color: white;
-
-}
-
- .contact {
+.contact {
     display: flex;
     align-items: center;
     gap: 50px;
+    padding-left: 40px;
 }
 
+
+/* Texto */
 
 .contact-text span {
     color: #B8156E;
@@ -50,11 +17,148 @@
 .contact-text h2 {
     color: white;
     font-size: 26px;
-    margin: 20px 0;
+    margin: 20px 0 15px;
 }
+
+.contacts-text {
+    color: #a39fae;
+    max-width: 420px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+/* Linha vertical */
 
 .linha {
     width: 1px;
     height: 250px;
-    background-color:#B8156E;
+    background-color: #B8156E;
+}
+
+
+/* Botão */
+
+.contact-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    border-radius: 50px;
+    background: #B8156E;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(184, 21, 110, .35);
+    transition: .3s;
+}
+
+.contact-cta:hover {
+    background: #96105a;
+    transform: translateY(-4px);
+}
+
+
+/* Área dos contatos */
+
+.contact-icons-wrapper {
+    width: 460px;
+}
+
+.icons-label {
+    display: block;
+    color: #a39fae;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+
+/* Lista de contatos */
+
+.contact-list {
+    width: 100%;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 68px;
+    border-bottom: 1px solid #24242a;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Ícone */
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111;
+    font-size: 18px;
+    flex-shrink: 0;
+    transition: .3s;
+}
+
+
+/* Informações */
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-info strong {
+    color: white;
+    font-size: 14px;
+}
+
+.contact-info span {
+    color: #6f6b78;
+    font-size: 12px;
+}
+
+
+/* Hover dos contatos */
+
+.contact-item:hover .contact-icon {
+    background: #B8156E;
+    color: white;
+}
+
+
+/* Responsivo */
+
+@media (max-width: 768px) {
+
+    .contact {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding-left: 0;
+    }
+
+    .linha {
+        width: 100%;
+        height: 1px;
+    }
+
+    .contact-icons-wrapper {
+        width: 100%;
+    }
+
+    .contact-item {
+        text-align: left;
+    }
+
 }
