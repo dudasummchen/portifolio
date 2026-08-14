@@ -1,11 +1,12 @@
 import './Projects.css'
-
+import calculadora from "../../assets/images/calculadora.png";
+import catalogo from "../../assets/images/catalogolivros.png";
 function Projects() {
 
     const projetos = [
 
         {
-            imagem: "https://via.placeholder.com/600x400",
+            imagem: catalogo,
             nome: 'Biblioteca Viva',
             descricao: 'Sistema para consulta e organização de livros.',
             tecnologias: 'React • CSS • JavaScript',
@@ -23,7 +24,7 @@ function Projects() {
         },
 
         {
-            imagem: "https://placehold.co/600x400",
+            imagem: calculadora,
             nome: 'Calculadora em React',
             descricao: 'Uma calculadora imc desenvolvida em React.',
             tecnologias: 'React • Vite • CSS',
