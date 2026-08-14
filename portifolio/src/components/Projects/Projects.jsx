@@ -9,7 +9,7 @@ function Projects() {
             nome: 'Biblioteca Viva',
             descricao: 'Sistema para consulta e organização de livros.',
             tecnologias: 'React • CSS • JavaScript',
-            github: 'https://github.com/',
+            github: 'https://github.com/dudasummchen/catalogo-digital-livros.git',
             demo: '#'
         },
 
@@ -18,16 +18,16 @@ function Projects() {
             nome: 'Ecoleta',
             descricao: 'Plataforma para incentivar o descarte correto de resíduos.',
             tecnologias: 'HTML • CSS • PHP • MySQL',
-            github: 'https://github.com/',
+            github: 'https://github.com/senacrs-emti/2025-2MA-cidadeconectada-G01.git',
             demo: '#'
         },
 
         {
             imagem: "https://placehold.co/600x400",
-            nome: 'Portfólio',
-            descricao: 'Meu portfólio desenvolvido em React.',
+            nome: 'Calculadora em React',
+            descricao: 'Uma calculadora imc desenvolvida em React.',
             tecnologias: 'React • Vite • CSS',
-            github: 'https://github.com/',
+            github: 'https://github.com/Camilafeeburg/app-ecoleta/tree/duda',
             demo: '#'
         }
 
